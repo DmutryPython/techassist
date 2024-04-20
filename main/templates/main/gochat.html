@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/chat/{{room}}/?username={{ login }}">
+    <input type="text" name="room">
+</form>
+</body>
+<script>
+    let input = document.querySelector('input');
+    document.form.action = '/chat/'+input+'/?username='+{{login}}
+</script>
+</html>

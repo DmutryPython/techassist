@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Викторина</title>
+
+</head>
+<body>
+<h1>Популярные продукты и ответы на вопросы</h1>
+
+{% for n in new %}
+<div class="qwe">
+    <h2>{{n.title}}</h2>
+    <h1>{{n.description}}</h1>
+
+</div>
+{% endfor %}
+
+
+
+</body>
+</html>
